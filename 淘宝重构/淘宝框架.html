@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>淘宝框架</title>
+    <link rel="stylesheet" type="text/css" href="taobao.css">
+</head>
+<body>
+     <!--
+         cover J_Cover  
+             site-nav  site-nav-status-logout 
+                 J_module tbh-decorations
+             site-nav-bd
+                 site-nav-bd-l
+                    site-nav-menu site-nav-switch
+                    site-nav-login
+                    site-nav-tmsg
+                    site-nav-mobile
+                 site-nav-bd-r
+                    site-nav-menu site-nav-home
+                    site-nav-mytaobao
+                    site-nav-favor
+                    site-nav-catalog
+                    site-nav-seller
+                    site-nav-service
+                    site-nav-sitemap
+         cup  J_Cup
+            top  J_Top 
+               tbh-logo
+               tbh-search
+               tbh-br-wrapper  
+         tbh-nav  J_Module  tb-pass  tb-bg
+            nav J_Nav  clearfix
+
+         screen-outer  clearfix 
+            main   
+                main-inner  clearfix
+                   tbh-sercice
+                   core
+                      tbh-promo
+                      tbh-tmall
+                tbh-headline   J_Module
+            col-right
+                tbh-number
+                tbh-tipoff
+                J_Module   tbh-notice
+                tbh-conve    J_Module
+                tbh-app   J_Module
+
+     -->
+     <div class="J_Cover">
+        <div class="site-nav">
+            <ul class="nav-left">
+                <li class="china">中国大陆
+                    <!-- <ul>
+                        <li>全球</li>
+                        <li>中国大陆</li>
+                        <li>香港</li>
+                        <li>台湾</li>
+                        <li>澳门</li>
+                        <li>韩国</li>
+                        <li>马来西亚</li>
+                        <li>澳大利亚</li>
+                        <li>新加坡</li>
+                        <li>新西兰</li>
+                        <li>日本</li>
+                        <li>美国</li>
+                    </ul> -->
+                </li>
+                <li><a href="#" class="color">亲，请登录</a></li>
+                <li><a href="#">免费注册</a></li>
+                <li><a href="#">手机逛淘宝</a></li>
+            </ul>
+            <ul class="nav-right">
+                <li><a href="#">网站导航</a></li>
+                <li><a href="#">联系客服</a></li>
+                <li><a href="#">卖家中心</a></li>
+                <li><a href="#">商品分类</a></li>
+                <li><a href="#">收藏夹</a></li>
+                <li><a href="#">购物车</a></li>
+                <li><a href="#">我的淘宝</a></li>
+            </ul>
+        </div>
+     </div> 
+     <div class="J_Cup">
+            <div class="J_Top">
+                <div class="tbh-logo"><a href="#"><img src="img/logo.jpg" alt=""></a></div>
+                <div class="tbh-search">
+                    <div class="search">
+                        <input type="text" class="text" name="searve" placeholder="请输入搜索内容" autofocus="">
+                        <input type="submit" class="button" name="button" value="搜索">
+                    </div>
+                    <div class="deal">
+                      <ul>
+                        <li><a href="#" class="orange">宝贝</a></li>
+                        <li><a href="#">天猫</a></li>
+                        <li><a href="#">店铺</a></li>
+                      </ul>
+                    </div>
+                    <div class="exm">
+                       <ul>
+                         <li><a href="#">新款连衣裙</a></li>
+                         <li><a href="#">四件套</a></li>
+                         <li><a href="#">潮流T恤</a></li>
+                         <li><a href="#">时尚女鞋</a></li>
+                         <li><a href="#">短裙</a></li>
+                         <li><a href="#">半身裙</a></li>
+                         <li><a href="#">男士外套</a></li>
+                         <li><a href="#">墙纸</a></li>
+                         <li><a href="#">行车记录仪</a></li>
+                         <li><a href="#">新款男鞋</a></li>
+                         <li><a href="#">耳机</a></li>
+                         <li><a href="#">时尚女包</a></li>
+                         <li><a href="#">沙发</a></li>
+                       </ul>
+                    </div>
+                </div>
+                <div class="tbh-br-wrapper"><a href="#"><img src="img/ma.jpg" alt=""></a></div>
+            </div>
+     </div>
+     <div class="tbh-nav">
+            <div class="J_Nav">
+                <h2>主题市场</h2>
+                <ul>
+                    <li><a href="#">天猫</a></li>
+                    <li><a href="#">聚划算</a></li>
+                    <li><a href="#">天猫超市</a></li>
+                    <li>|</li>
+                    <li><a href="#">淘抢购</a></li>
+                    <li><a href="#">电器城</a></li>
+                    <li><a href="#">司法拍卖</a></li>
+                    <li><a href="#">中国制造</a></li>
+                    <li><a href="#">兴农扶贫</a></li>
+                    <li>|</li>
+                    <li><a href="#">飞猪旅行</a></li>
+                    <li><a href="#">智能生活</a></li>
+                    <li><a href="#">苏宁易购</a></li>
+                    <li><a href="#">云栖大会</a></li>
+                </ul>
+            </div>
+     </div> 
+     <div class="screen">
+         <div class="screen-outer">
+                <div class="main">
+                    <div class="ul">
+                        <ul>
+                            <li><a class="commit" href="#"><a href="#">女装</a> / <a href="#">男装</a>  / <a href="#">内衣</a></a></li>
+                            <li><a class="commit" href="#"><a href="#">鞋靴</a> / <a href="#">箱包</a>  / <a href="#">配件</a></a></li>
+                            <li><a class="commit" href="#"><a href="#">童装玩具</a> / <a href="#">孕产</a> /  <a href="#">用品</a></a></li>
+                            <li><a class="commit" href="#"><a href="#">家电</a> / <a href="#">数码</a> / <a href="#">手机</a></a></li>
+                            <li><a class="commit" href="#"><a href="#">美妆</a> / <a href="#">洗护</a> / <a href="#">保健品</a></a></li>
+                            <li><a class="commit" href="#"><a href="#">珠宝</a> / <a href="#">眼镜</a> / <a href="#">手表</a></a></li>
+                            <li><a class="commit" href="#"><a href="#">运动</a> / <a href="#">户外</a> / <a href="#">乐器</a></a></li>
+                            <li><a class="commit" href="#"><a href="#">游戏</a> / <a href="#">动漫</a> / <a href="#">影视</a></a></li>
+                            <li><a class="commit" href="#"><a href="#">美食</a> / <a href="#">生鲜</a> / <a href="#">零食</a></a></li>
+                            <li><a class="commit" href="#"><a href="#">鲜花</a> / <a href="#">宠物</a> / <a href="#">农资</a></a></li>
+                            <li><a class="commit" href="#"><a href="#">房产</a> / <a href="#">装修</a> / <a href="#">建材</a></a></li>
+                            <li><a class="commit" href="#"><a href="#">家具</a> / <a href="#">家饰</a> / <a href="#">家纺</a></a></li>
+                            <li><a class="commit" href="#"><a href="#">汽车</a> / <a href="#">二手车</a> / <a href="#">用品</a></a></li>
+                            <li><a class="commit" href="#"><a href="#">办公</a> / <a href="#">DIY</a> / <a href="#">五金电子</a></a></li>
+                            <li><a class="commit" href="#"><a href="#">百货</a> / <a href="#">餐厨</a> / <a href="#">家庭保健</a></a></li>
+                            <li><a class="commit" href="#"><a href="#">学习</a> / <a href="#">卡券</a> / <a href="#">本地服务</a></a></li>
+                        </ul>
+                    </div>
+                    <div class="main-inner">
+                        <div class="tbh-sercice">
+                           <a href="#"> <img src="img/serve1.jpg" alt=""></a>
+                        </div>
+                        <div class="core">
+                           <a href="#"> <img src="img/serve4.jpg" alt=""><img src="img/serve5.jpg" alt=""></a>
+                        </div>
+                        <div class="tbh-right">
+                            <div class="cover-1"><a href="#"><img src="img/serve2.jpg" alt=""></a></div>
+                            <div class="cover-2"><a href=""><img src="img/serve3.jpg" alt=""></a></div>
+                        </div>
+                    </div>
+                    <div class="tbh-headline">
+                       <div class="tbh-headline-left">
+                            <img src="img/tout.jpg" class="left"> <br>
+                            <span>让你的生活更有趣</span>
+                        </div> 
+                        <div class="tbh-headline-right">
+                            <a href="#"><img src="img/qiu.jpg" alt=""></a>
+                            <div>
+                                <p class="p1"><a class="a1" href="#">【早报】英格兰挺进四强，神奇东道主不在</a>
+                                <a class="a2" href="#">更多&nbsp;&nbsp;&gt;</a></p>
+                                <p class="p2">北京时间7月7日晚间10点，2018世界杯1/4决赛迎来了第三场比赛，英格兰和瑞典在萨马拉展开对决。凭借着马圭尔和阿里两人的头球破门英格兰战胜了瑞典，这也是时隔28年之久后三狮军团再次进入世界杯4强。</p>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-right">
+                    <div class="number">
+                        <div class="xiaomi">
+                            <a href="#"><img src="img/xiaomi.jpg"><p>Hi,你好</p></a>
+                        </div>
+                        <div class="money">
+                            <a href="#">&nbsp;领淘金币抵钱</a><a href="#">&nbsp;会员俱乐部&nbsp;&nbsp;</a>
+                        </div>
+                        <div class="button1">
+                            <input type="submit" value="登录">
+                            <input type="submit" value="注册">
+                            <input type="submit" value="开店">
+                        </div>
+                    </div>
+                    <div class="tbh-tipoff">
+                        <span>网上有害信息举报专区&nbsp;&nbsp;&gt;</span>       
+                    </div>
+                    <div class="tbh-notice">
+                        <div class="heade">
+                            <ul>
+                                <li><a href="#">公告</a></li>
+                                <li><a href="#">规则</a></li>
+                                <li><a href="#">论坛</a></li>
+                                <li><a href="#">安全</a></li>
+                                <li><a href="#">公益</a></li>
+                            </ul>
+                        </div>
+                        <div class="bodye">
+                            <a href="#" class="bodye-hover">联合国任命马云任数字小组联合主席</a>
+                            <br>
+                            <a href="#">阿里战略投资苏宁体育</a>
+                        </div>
+                    </div>
+                    <div class="tbh-conve">
+                        <ul>
+                           <li><a href="#"><img src="img/1.jpg" alt=""><br><span>充话费</span></a></li>
+                           <li><a href="#"><img src="img/2.jpg" alt=""><br><span>旅行</span></a></li>
+                           <li><a href="#"><img src="img/3.jpg" alt=""><br><span>车险</span></a></li>
+                           <li><a href="#"><img src="img/4.jpg" alt=""><br><span>游戏</span></a></li>
+                           <li><a href="#"><img src="img/5.jpg" alt=""><br><span>彩票</span></a></li>
+                           <li><a href="#"><img src="img/6.jpg" alt=""><br><span>电影</span></a></li>
+                           <li><a href="#"><img src="img/7.jpg" alt=""><br><span>酒店</span></a></li>
+                           <li><a href="#"><img src="img/8.jpg" alt=""><br><span>理财</span></a></li>
+                           <li><a href="#"><img src="img/9.jpg" alt=""><br><span>找服务</span></a></li>
+                           <li><a href="#"><img src="img/10.jpg" alt=""><br><span>水电煤</span></a></li>
+                           <li><a href="#"><img src="img/11.jpg" alt=""><br><span>火车票</span></a></li>
+                           <li><a href="#"><img src="img/12.jpg" alt=""><br><span>演出</span></a></li>
+                       </ul>       
+                    </div>
+                    <div class="tbh-app"> 
+                        <div class="ali">
+                            <span class="ali-l">阿里APP</span>
+                            <span><a href="#">更多 &gt;</a></span>
+                        </div>
+                        <div class="ali-app">
+                            <ul>
+                                <li><a href="#"><img src="img/a1.jpg"></a></li>
+                                <li><a href="#"><img src="img/a2.jpg"></a></li>
+                                <li><a href="#"><img src="img/a3.jpg"></a></li>
+                                <li><a href="#"><img src="img/a4.jpg"></a></li>
+                                <li><a href="#"><img src="img/a5.jpg"></a></li>
+                                <li><a href="#"><img src="img/a6.jpg"></a></li>
+                                <li><a href="#"><img src="img/a7.jpg"></a></li>
+                                <li><a href="#"><img src="img/a8.jpg"></a></li>
+                                <li><a href="#"><img src="img/a9.jpg"></a></li>
+                                <li><a href="#"><img src="img/a10.jpg"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+         </div> 
+    </div>        
+</body>
+</html>

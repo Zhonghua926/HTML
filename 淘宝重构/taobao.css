@@ -1,0 +1,534 @@
+@charset "utf-8";
+
+      *{
+            padding: 0;
+            margin:0;
+            list-style: none;
+            text-decoration: none;
+        }
+        a{
+            color:#6C6C6C;
+        }
+        .tbh-conve img{
+            clear: both;
+            width: 23px;
+            height: 26px;
+            padding: 20px;
+            padding-bottom: 3PX;
+        }
+        .tbh-conve span{
+            clear: both;
+            font-size: 14px;
+            display: inline-block;
+            width: 60px;
+            height: 16px;
+            line-height: 16px;
+            text-align: center;
+            color: #000;
+        }
+        .tbh-conve span:hover{
+            color: #FF4400;
+        }
+        .color{
+            color:#F22E00;
+        }
+        .J_Cover{
+            width: 100%;
+            height:37px;
+            background: #F5F5F5;
+        }
+        .site-nav{
+            width: 1190px;
+            height: 37px;
+           /* border:1px solid #cccccc;*/
+            margin:0 auto;
+        }
+        .nav-left >li{
+            float: left;
+            font-size: 12px;
+            /*width: 60px;*/
+            text-align: center;
+            margin-right: 18px;
+            line-height: 37px
+       }
+        .nav-right > li{
+            float: right;
+            width: 70px;
+            text-align: center;
+            margin-right: 10px;
+            line-height: 37px;
+            font-size: 12px;
+        }
+        .J_Cup{
+            width: 100%;
+            height:121px;
+            border:1px solid #ffffff;
+        }
+        .J_Top{
+            height: 97px;
+            width: 1190px;
+            margin:0 auto;
+            margin-top: 22px;
+            background: #ffffff;
+            position: relative;
+        }
+        .tbh-search{
+            width: 675px;
+            height: 85px;
+            border:1px solid #ffffff;
+            margin-left: 218px;
+            position: relative;
+            /*overflow: hidden;*/
+        }
+        .search{
+            width: 610px;
+            height: 38px;
+            margin-left: 30px;
+            margin-top: 20px;
+            border-radius: 19px;
+            position: relative;
+            background: #ffffff;
+            border:2px solid #FF5000;
+            z-index: 1;
+        }
+        .deal{
+            position: absolute;
+            height: 20px;
+            top:-5px;
+            left:39px;
+        }
+        .deal ul li{
+            float: left;
+            margin-left: 10px; 
+        }
+        .deal ul li a{
+            width: 40px;
+            height: 25px;
+            font-size: 14px;
+            line-height: 25px;
+            text-align: center;
+            color: #FF4400;
+            display: inline-block;
+        } 
+        .tbh-search .exm{
+            width: 620px;
+            height: 20px;
+            overflow: hidden;
+            margin-left: 30px;
+            margin-top: 5px;
+        }
+        .tbh-search .exm ul li{
+           float: left;
+           margin-left: 4px;
+        }
+        .tbh-search .exm ul li a{
+            color: #000000;
+            font-size:12px;
+        }
+        .tbh-search .exm ul li:nth-of-type(3)  a{
+            color: #FF5600;
+        }
+        .tbh-search .deal ul li .orange{
+            background:linear-gradient(to right,#FF8A00,#FF5100);
+            color: #ffffff;
+            font-weight: bold;
+            border-radius: 8px 8px 0 0;
+        }
+        .text{
+           clear: both;
+           width: 440px;
+           height: 32px;
+           line-height: 32px;
+           margin-left: 30px;
+           margin-top:3px;
+           border:none;
+           outline:none;
+        }
+        .button{
+            width: 72px;
+            height: 38px;
+            background: #FF5E00;
+            border:2px solid #ff5e00;
+            border-radius: 0 19px 19px 0;
+            color: #ffffff;
+            font-size: 18px;
+            outline: none;
+            position: absolute;
+            right: -2px;
+            top: 0;
+            cursor: pointer;
+        }
+        .tbh-logo{
+            float: left;
+            width: 190px;
+            height: 88px;
+            background: #ffffff;
+          /*  border:1px solid white;*/
+        }
+        .tbh-logo a img{
+            margin:10px;
+        }
+        .tbh-br-wrapper{
+            width: 74px;
+            height: 88px;
+            position: absolute;
+            top: 0;
+            right: 100px;
+            background: #fff;
+            border: 1px solid #cccccc;
+        } 
+        .tbh-br-wrapper a img{
+            margin-top:10px;
+            padding: 5px; 
+        }
+        .tbh-nav{
+            width: 100%;
+            height: 30px;
+            background: linear-gradient(to right,#FF8F00,#FF5100);
+        }
+        .J_Nav{
+            width: 1190px;
+            height: 30px;
+            /*border: 1px solid black;*/
+            margin: 0 auto;
+            position: relative;
+        }
+        h2{
+            width: 190px;
+            height: 30px;
+            color: #fff;
+            float: left;
+            display: inline-block;
+            line-height: 30px;
+            text-align: center;
+            background: #FF5000;
+        }
+        .J_Nav ul li{
+            float: left;
+            margin-left: 15px;
+            line-height: 30px;
+            color: #fff;
+        }
+        .J_Nav ul li a{
+            color: #fff;
+        }
+        .screen{
+            width: 100%;
+            
+        }
+        .screen-outer{
+            width: 1190px;
+            height: 630px;
+            background: #ffffff;
+            margin:0 auto;
+            position: relative;
+        }
+        .main{
+            width: 896px;
+            height: 628px;
+           /* border: 1px solid #fff;*/
+            position: relative;
+        }
+        .col-right{
+            width: 288px;
+            height: 618px;
+            right: 0px;
+            top:0;
+           /* border: 1px solid #fff;*/
+            margin-top: 10px;
+            position: absolute;
+        }
+        .main-inner{
+            width: 896px;
+            height: 520px;
+            position: absolute;
+            top:0;
+            left: 195px;
+            }
+        .ul{
+            width: 188px;
+            height: 519px;
+            background: #ffffff;
+            border: 1px solid #FF5000;
+            position: relative;
+           /* border-top: hidden;*/
+        }
+        .ul ul li{
+            height: 22px;
+            margin-left: 20px;
+            margin-top: 10px;
+            color: #7C7C7C;
+        }
+        .ul ul li > a{
+            font-size: 15px;
+            display: inline-block;
+            /*width: 154px;*/
+            /*float: left;*/
+        }
+        .ul ul li:after{
+            content: ">";
+            position: absolute;
+            right: 2px;
+        }
+        .ul ul li:hover,.ul ul li:hover a{
+           color:#FF5000;
+        }
+        .ul ul li a:hover{
+           border-bottom: 1px solid #FF5000;
+        }
+        .tbh-headline{
+            width: 896px;
+            height: 100px;
+            margin-top: 6px;
+            background: #ffffff;
+            position: relative;
+            overflow:hidden;
+        }
+        .tbh-headline-left{
+            width: 188px;
+            display: inline-block;
+        }
+        .tbh-headline-left img{
+            width: 130px;
+            height: 30px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .tbh-headline-left span{
+            margin-left: 20px;
+            font-size: 14px;
+            color: #999999;
+        }
+        .tbh-headline-right{
+            margin-top: 5px;
+            margin-left: 10px;
+            display: inline-block;
+            position: absolute;
+            left: 200px;
+        }
+        .tbh-headline-right img{
+            width: 130px;
+            height: 80px;
+            float: left;
+        }
+        .tbh-headline-right div{
+            position: absolute;
+            width: 520px;
+            height: 100px;
+            left: 160px;
+            top:5px;
+        }
+        .p1 .a1{
+            float: left;
+            color: #000000;
+        }
+        .p1 .a2{
+            float: right;
+            font-size: 14px;
+            color: #999999;
+        }
+        .p1 a:hover{
+            color: #f40;
+        } 
+        .p2{
+            clear: both;
+            font-size: 14px;
+            color: #999999;
+        }
+        .tbh-sercice{
+            width: 520px;
+            height: 270px;
+            margin-top: 10px;
+            background:#FFA4CC;
+        }
+        .tbh-sercice img{
+            width: 520px;
+            height: 270px;
+        }
+        .core{
+            width: 520px;
+            height: 230px;
+            margin-top: 8px;
+            
+        }
+        .core img{
+            width: 260px;
+            height: 230px;
+        }
+        .tbh-right{
+            width: 161px;
+            height: 518px;
+            position: absolute;
+            top:0;
+            right: 205px;
+            /*border: 1px solid red;*/
+        }
+        .cover-1{
+            width: 161px;
+            height: 270px;
+            margin-top: 10px;
+            
+        }
+        .cover-1 img{
+            width: 161px;
+            height: 270px;
+        }
+        .cover-2{
+            width: 161px;
+            height: 229px;
+            margin-top: 8px;
+           
+        }
+        .cover-2 img{
+            width: 161px;
+            height: 229px;
+        }
+        .number{
+            width: 288px;
+            height: 143px;
+            overflow: hidden;
+           /* background: url("img/21.jpg");
+            background-size: 288px 143px;*/
+        }
+        .xiaomi{
+            width: 60px;
+            height: 72px;
+            margin:0 auto;
+        }
+        .xiaomi a img{
+            width: 55px;
+            height: 55px;
+            padding: 5px;
+            padding-bottom: 0;
+        }
+        .xiaomi a p{
+            height: 12px;
+            line-height: 12px;
+            font-size: 12px;
+            text-align: center;
+            color: #000000;
+        }
+        .money{
+            height: 18px;
+            width: 100%;
+            margin:8px auto;
+            overflow: hidden;
+        }
+        .money a{
+            font-size: 14px;
+            color: #FF5000;
+            background-color: pink;
+            margin-right: 10px;
+            line-height: 18px;
+        }
+        .money a:first-child{
+            margin-left: 15%;
+        }
+        .button1{
+            width: 270px;
+            height: 30px;
+            margin:10px auto;
+        }
+        .button1 input{
+            width: 80px;
+            height: 30px;
+            background:linear-gradient(to right,#FF5100,#FF6F06);
+            color: #ffffff;
+            border-radius: 8px;
+            margin-right: 6px; 
+            cursor: pointer;
+            outline: none;
+            border:none;
+        }
+        .tbh-tipoff{
+            width: 290px;
+            height: 26px;
+            background-color: pink;
+        }
+        .tbh-tipoff span{
+           line-height: 26px;
+           height: 26px;
+           margin-left: 80px;
+           font-size: 14px;
+           color: #FF4400;
+        }
+        .tbh-notice{
+            width: 290px;
+            height: 108px;
+            background: #fffff;
+        }
+        .heade{
+            margin:10px auto 15px;
+            width: 280px;
+            height: 22px;
+        }
+        .heade ul li{
+            float: left;
+            margin-right: 23px;
+        }
+        .heade ul li a{
+            color: #3c3c3c;
+            font-size:14px;
+        }
+        .bodye a{
+            color: #3C3C3C;
+            margin-left: 10px;
+            font-size: 14px;
+        }
+        .heade ul li a:hover{
+            color: #FF5000;
+            border-bottom: 2px solid #ff0000;
+        }
+        .bodye .bodye-hover{
+            color: #FF5000;
+        }
+        .tbh-conve{
+            width: 290px;
+            height: 232px;
+            background: #FFF;
+        }
+        .tbh-conve ul li{
+            width: 70px;
+            height: 75px;
+            float: left;
+            margin:1px;
+            
+            background: #FFF;
+        }
+        .tbh-conve ul li span{
+            color: #333333;
+        }
+        .tbh-app{
+            width: 290px;
+            height: 111px;
+            background: #fff;
+        }
+        .ali{
+            width: 290px;
+            height: 30px;
+            position: relative;
+            
+        }
+        .ali .ali-l{
+            float: left;
+            line-height: 30px;
+            margin-left: 10px;
+            color: #666666;
+        }
+        .ali span a{
+            clear: both;
+            font-size: 14px;
+            line-height: 30px;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .ali-app ul li{
+            float: left;
+        }
+        .ali-app ul li img{
+            width: 33px;
+            height: 33px;
+            margin-left: 23px;
+            margin-bottom: 5px;
+        } 
