@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+   .lady-order-3{
+     width: 100%;
+     height: 58px;
+   }
+   .lady-order-3 .fit-3{
+      width: 1366px;
+      height: 58px;
+      margin:auto;
+      position: relative;
+   }
+   .lady-order-3 .fit-3 ul{
+      position: absolute;
+      left: 80px;
+   }
+   .lady-order-3 .fit-3 ul li{
+      float: left;
+      line-height: 58px;
+      color: #888;
+      font-size: 15px;
+      margin-right: 8px;
+   }
+   .lady-order-3 .fit-3 ul li a{
+      color: #555552;
+      font-size: 15px;
+   }
+   .lady-order-3 div.fit-3 ul li:last-child{
+      color: #888888;
+   }
+
+    .lady-order-5{
+    width: 100%;
+    margin-top: 20px;
+    height: 400px;
+   }
+   .lady-order-5 .fit-5{
+      width: 1366px;
+      position: relative;
+      margin:auto;
+   }
+   .lady-order-5 .fit-5 .lady-order-left{
+      width: 400px;
+      float: left;
+   }
+   .lady-order-5 .fit-5 .lady-order-left .mr-left{
+      width: 310px;
+      height: 300px;
+      margin-left: 85px;
+   }
+   .lady-order-5 .fit-5 .lady-order-left .mr-left .sex{
+      margin-top: 70px;
+   }
+   .lady-order-5 .fit-5 .lady-order-left .mr-left .product{
+      margin-top: 20px;
+   }
+   .lady-order-5 .fit-5 .lady-order-left .mr-left ul li{
+      width: 145px;
+      height: 18px;
+      line-height: 18px;
+      float: left;
+      position: relative;
+      margin-top: 5px;
+   }
+   .lady-order-5 .fit-5 .lady-order-left .mr-left p{
+      clear: both;
+      margin-top: 5px;
+      position: relative;
+      color: #666666;
+   }
+   .lady-order-5 .fit-5 .lady-order-left .mr-left p label{
+      color: #000000;
+      font-size: 14px;
+      cursor: pointer;
+   }
+   .lady-order-5 .fit-5 .lady-order-left .mr-left ul li input{
+      width: 18px;
+      height: 18px;
+      margin-top: 3px;
+      position: absolute;
+      top:0px;
+   }
+   .lady-order-5 .fit-5 .lady-order-left .mr-left ul li label{
+      position: absolute;
+      left:  25px;
+      font-size: 14px;
+      color: #666666;
+   }
+   .lady-order-5 .fit-5 .lady-order-left .mr-left ul li:hover label{
+      color: #ff4400;
+   }
+   .lady-order-5 .fit-5 .lady-order-left .mr-left  label:hover{
+      color: #ff4400;
+   }
+   .lady-order-5 .fit-5 .lady-order-left .mr-left  div{
+   	width: 100px;
+   	height: 40px;
+   	float: left;
+   	margin-right: 20px;
+   	border:1px solid #888888;
+   	line-height: 40px;
+   	text-align: center;
+   	font-size: 14px;
+   }
+   .lady-order-5 .fit-5 .lady-order-left .mr-left  div:hover{
+   	border:1px dotted #000000;
+   }
+   .lady-order-5 .fit-5 .lady-order-right{
+      width: 960px;
+      float: left;
+   }
+   .lady-order-5 .fit-5 .lady-order-right >span{
+      font-size: 20px;
+      font-weight: bold;
+      display: inline-block;
+      margin-bottom: 35px;
+   }
+   .lady-order-5 .fit-5 .lady-order-right span span{
+      font-size: 20px;
+      font-weight: normal;
+      color: #666666;
+   }
+   .lady-order-5 .fit-5 .lady-order-right ul li{
+   	float: left;
+   	margin-right: 10px;
+   	border:1px solid #ffffff;
+   }
+   .lady-order-5 .fit-5 .lady-order-right ul li:hover{
+   	border:1px solid #999999;
+   }
+   .lady-order-5 .fit-5 .lady-order-right ul li a img{
+   	width: 200px;
+      padding: 2px;
+   }
+   .lady-order-5 .fit-5 .lady-order-right ul li p{
+   	text-align: center;
+   	font-size: 14px;
+   	font-weight: bold;
+   }
+   .lady-order-5 .fit-5 .lady-order-right ul li >a{
+   	 display: inline-block;
+   	 margin-bottom: 30px;
+   	 margin-top: 20px;
+   }
+   .lady-order-5 .fit-5 .lady-order-right ul li p img{
+   	width: 12px;
+   	height: 12px;
+   	margin-top: 50px;
+   }
+   .lady-order-5 .fit-5 .lady-order-right ul li p:last-child{
+   	margin-bottom: 50px;
+   }
+   .lady-order-5 .fit-5 .lady-order-right ul li p:last-child a{
+   	color: #666666;
+   	font-size: 12px;
+   }

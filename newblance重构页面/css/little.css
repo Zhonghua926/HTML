@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+    .little-3{
+     width: 100%;
+     height: 78px;
+   }
+   .little-3 .fit-3{
+      width: 1366px;
+      height: 78px;
+      margin:auto;
+      position: relative;
+   }
+   .little-3 .fit-3 ul{
+      position: absolute;
+      left: 80px;
+   }
+   .little-3 .fit-3 ul li{
+      float: left;
+      line-height: 78px;
+      color: #888;
+      font-size: 15px;
+      margin-right: 8px;
+   }
+   .little-3 .fit-3 ul li a{
+      color: #555552;
+      font-size: 15px;
+   }
+   .little-3 div.fit-3 ul li:last-child{
+      color: #888888;
+   }
+    .little-5{
+   	width: 100%;
+   	height: 800px;
+     margin-top: 40px;
+   }
+   .little-5 .fit-5{
+      width: 1366px;
+      height: 800px;
+      position: relative;
+      margin:auto;
+   }
+   .little-5 .fit-5 .little-left{
+      width: 400px;
+      height: 800px;
+      float: left;
+   }
+   .little-5 .fit-5 .little-left .mr-left{
+      width: 310px;
+      height: 300px;
+      margin-left: 85px;
+   }
+   .little-5 .fit-5 .little-left .mr-left .sex{
+      margin-top: 70px;
+   }
+   .little-5 .fit-5 .little-left .mr-left .product{
+      margin-top: 20px;
+   }
+   .little-5 .fit-5 .little-left .mr-left ul li{
+      width: 145px;
+      height: 18px;
+      line-height: 18px;
+      float: left;
+      position: relative;
+      margin-top: 5px;
+   }
+   .little-5 .fit-5 .little-left .mr-left p{
+      clear: both;
+      margin-top: 5px;
+      position: relative;
+      color: #666666;
+   }
+   .little-5 .fit-5 .little-left .mr-left p label{
+      color: #000000;
+      font-size: 14px;
+      cursor: pointer;
+   }
+   .little-5 .fit-5 .little-left .mr-left ul li input{
+      width: 18px;
+      height: 18px;
+      margin-top: 3px;
+      position: absolute;
+      top:0px;
+   }
+   .little-5 .fit-5 .little-left .mr-left ul li label{
+      position: absolute;
+      left:  25px;
+      font-size: 14px;
+      color: #666666;
+   }
+   .little-5 .fit-5 .little-left .mr-left ul li:hover label{
+      color: #ff4400;
+   }
+   .little-5 .fit-5 .little-left .mr-left  label:hover{
+      color: #ff4400;
+   }
+   .little-5 .fit-5 .little-right{
+      width: 960px;
+      height: 800px;
+      float: left;
+   }
+   .little-5 .fit-5 .little-right >span{
+      font-size: 24px;
+      font-weight: bold;
+      display: inline-block;
+      margin-bottom: 35px;
+   }
+   .little-5 .fit-5 .little-right span span{
+      font-size: 24px;
+      font-weight: normal;
+      color: #666666;
+   }
+   .little-5 .fit-5 .little-right ul li{
+      box-sizing: content-box;
+      float: left;
+      width: 215px;
+      height: 350px;
+      margin:2px;
+      text-align: center;
+      border:1px solid #ffffff;
+      margin-top: 5px;
+      position: relative;
+   }
+   .little-5 .fit-5 .little-right ul li div{
+      width: 160px;
+      height: 40px;
+      position: absolute;
+      background-color: rgba(40,40,40,0.7);
+      top:145px;
+      left: 30px;
+      display: none;
+      text-align: center;
+      line-height: 40px;
+   }
+   div.little-5 div.fit-5 div.little-right ul li:hover div{
+      display: block !important;
+   }
+   .little-5 .fit-5 .little-right ul li div a{
+      color: #ffffff;
+      font-weight: bold;
+   }
+   .little-5 .fit-5 .little-right ul li a img{
+      margin-top: 2px;
+   }
+   .little-5 .fit-5 .little-right ul li:hover{
+      border:1px solid #CCCCCC;
+   }
+   .little-5 .fit-5 .little-right ul li p{
+      font-weight: bold;
+      font-size: 15px;
+      margin:5px;
+   }
+   .little-5 .fit-5 .little-right ul li p a{
+      font-size: 15px;
+   }
+
+    .little-6{
+   	width: 100%;
+      height: 218px;
+   }
+   .little-6 .fit-6{
+      width: 1366px;
+      height: 218px;
+      position: relative;
+      margin:auto;
+      line-height: 218px;
+      text-align: center;
+   }
+   .little-6 .fit-6 a{
+      color: #E2515B;
+      font-size: 16px;
+   }
+   .little-6 .fit-6 a:hover{
+      color: #3B3B5D;
+   }

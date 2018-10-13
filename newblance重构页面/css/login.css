@@ -1,0 +1,285 @@
+@charset "utf-8";
+   *{
+      list-style: none;
+      margin:0;
+      padding:0;
+   }
+   div.login-3{
+   	width: 100%;
+   	height: 80px;
+   	background-color: #EBEBEB;
+   }
+   div.login-3 .fit-3{
+   	width: 1200px;
+   	height: 80px;
+   	margin:0 auto;
+   	line-height: 80px;
+   }
+   div.login-3 .fit-3 a{
+   	font-size: 28px;
+   	color: #5F5F5F;
+   	font-weight: normal;
+   }
+   .login-4{
+   	width: 100%;
+   }
+   .login-4 .fit-4{
+   	width: 1366px;
+      position: relative;
+   	margin:auto;
+   	overflow: hidden;
+   }
+   .login-4 .fit-4 .log{
+   	width: 550px;
+   	float: left;
+   	display: inline-block;
+   	margin-left: 100px;
+   }
+   .login-4 .fit-4 .log .log-top{
+   	width: 510px;
+   	height: 280px;
+   	margin:20px;
+   	padding:10px;
+   	background-color: #F1F1F1;
+   }
+   .login-4 .fit-4 .log .log-top > p{
+   	font-size: 18px;
+   	color: #000000;
+   }
+   .login-4 .fit-4 .log .log-top .border1{
+   	border:1px solid #838383;
+   	margin-top: 10px;
+   }
+   .login-4 .fit-4 .log .log-top .border1 p{
+   	margin-top: 5px;
+   	color: #ff0000;
+   }
+   .login-4 .fit-4 .log .log-top .border1 p span{
+   	color: #838383;
+   }
+   .login-4 .fit-4 .log .log-top .border1 form  input:nth-of-type(1),
+   .login-4 .fit-4 .log .log-top .border1 form input:nth-of-type(2){
+   	width: 500px;
+      height: 25px;
+   }
+   .login-4 .fit-4 .log .log-top .border1 form a{
+   	font-size: 14px;
+   	color:#ff0000; 
+   	margin-left: 300px;
+   }
+   .login-4 .fit-4 .log .log-top .border1 form  input:nth-of-type(3),
+   .login-4 .fit-4 .log .log-top .border1 form input:nth-of-type(4){
+     margin-top: 20px;
+     margin-right: 10px;
+   }
+   .login-4 .fit-4 .log .log-top .border1 form  label{
+   	color: #838383;
+   	font-size: 14px;
+   	cursor: pointer;
+   }
+   .login-4 .fit-4 .log .log-top .border1 form  input:nth-of-type(5){
+   	box-sizing: border-box;
+      width: 100px;
+   	height: 40px;
+   	color: #ffffff;
+   	margin-top: 20px;
+   	margin-bottom: 10px;
+   	background-color: #ff0000;
+   	cursor: pointer;
+   }
+   .login-4 .fit-4 .log .log-top .border1 form  input:nth-of-type(5):hover{
+      border:2px solid #666666;
+   }
+   .login-4 .fit-4 .log .log-bt{
+   	width: 500px;
+   	height: 100px;
+   	margin-left: 30px;
+   }
+   .login-4 .fit-4 .log .log-bt p{
+     font-size: 14px;
+     color: #838383;
+   }
+   .login-4 .fit-4 .log .log-bt p:first-child{
+   	font-size: 16px;
+   	color: #666666;
+   }
+   .login-4 .fit-4 .creat{
+   	width: 550px;
+   	height: 600px;
+   	float: left;
+   	display: inline-block;
+   }
+   .login-4 .fit-4 .creat .creat-m{
+   	width: 510px;
+   	height: 560px;
+   	margin:20px;
+   	padding:10px;
+   	background-color: #F1F1F1;
+   }
+   .login-4 .fit-4 .creat .creat-m > p{
+   	font-size: 18px;
+   	color: #000000;
+   }
+   .login-4 .fit-4 .creat .creat-m .border1{
+   	border:1px solid #838383;
+   	margin-top: 10px;
+   }
+   .login-4 .fit-4 .creat .creat-m .border1 p{
+   	margin-top: 5px;
+   	color: #ff0000;
+   }
+   .login-4 .fit-4 .creat .creat-m .border1 p span{
+   	color: #838383;
+   }
+   .login-4 .fit-4 .creat .creat-m  .border1 form  input:nth-of-type(1),
+   .login-4 .fit-4 .creat .creat-m  .border1 form  input:nth-of-type(2),
+   .login-4 .fit-4 .creat .creat-m  .border1 form  input:nth-of-type(3),
+   .login-4 .fit-4 .creat .creat-m  .border1 form  input:nth-of-type(4),
+   .login-4 .fit-4 .creat .creat-m  .border1 form  input:nth-of-type(5){
+   	width: 500px;
+      height: 20px;
+      line-height: 20px;
+   }
+   .login-4 .fit-4 .creat .creat-m  .border1 form  input:nth-of-type(6),
+   .login-4 .fit-4 .creat .creat-m  .border1 form input:nth-of-type(7){
+     margin-top: 20px;
+     margin-right: 10px;
+   }
+   .login-4 .fit-4 .creat .creat-m  .border1 form  label{
+   	color: #838383;
+   	font-size: 14px;
+   	cursor: pointer;
+   }
+   .login-4 .fit-4 .creat .creat-m  .border1 form  input:nth-of-type(8){
+   	box-sizing: border-box;
+      width: 100px;
+   	height: 40px;
+   	color: #ffffff;
+   	margin-top: 20px;
+   	margin-bottom: 10px;
+   	background-color: #ff0000;
+   	cursor: pointer;
+   }
+   .login-4 .fit-4 .creat .creat-m  .border1 form  input:nth-of-type(8):hover{
+      border:2px solid #666666;
+   }
+   .login-4 .fit-4 .creat .creat-m  .border1 form .oInput {
+      width: 500px;
+      height: 20px;
+      line-height: 20px;
+      font-size: 14px;
+      text-indent: 2em;
+      position: relative;
+      top:5px;
+      color: #333;
+      background-color: orange;
+      z-index: 10;
+      display: none;
+   }
+   .login-4 .fit-4 .creat .creat-m  .border1 form .oInput p{
+      border: 10px solid orange;
+      transform:rotateZ(45deg);
+      position: absolute;
+      top:-11px;
+      left: 20px;
+      z-index: -1;
+   }
+   .login-4 .fit-4 .box0{
+      width: 160px;
+      height: 160px;
+      background-color: pink;
+      position: absolute;
+      border-radius: 50%;
+      right: 10px;
+      top:60px;
+   }
+   .dad{
+         width: 100px;
+         height: 100px;
+         margin:30px;
+         position: relative;
+         animation-name: myaction;
+          animation-duration: 8s;
+          animation-iteration-count: infinite;
+         transform-style: preserve-3d;
+         animation-timing-function: linear;
+         transform: rotateZ(45deg) rotateX(45deg);
+
+       }
+      .box{
+         width: 100px;
+         height: 100px;
+         position: absolute;
+         top:0;
+         left: 0;
+      }
+      .box1{
+         background-color: white;
+         transform: translateZ(-50px);
+      }
+      .box2{
+         background-color: white;
+         transform: rotateY(90deg) translateZ(-50px);
+      }
+      .box3{
+         background-color: white;
+         transform: rotateY(90deg) translateZ(50px);
+      }
+      .box4{
+         background-color: white;
+         transform: rotateX(90deg) translateZ(-50px);
+      }
+      .box5{
+         background-color: white;
+         transform: rotateX(90deg) translateZ(50px);
+      }
+      .box6{
+         background-color: white;
+         transform:translateZ(50px);
+      }
+      .box ul li{
+         margin:1px;
+         width:31px;
+         height: 31px;
+         float: left;
+         border-radius: 4px;
+      }
+      .box1 ul li{
+         background-color: rgba(255,0,0);
+      }
+      .box2 ul li{
+         background-color: rgba(0,255,0);
+      }
+      .box3 ul li{
+         background-color: rgba(0,0,255);
+      }
+      .box4 ul li{
+         background-color: rgba(255,255,0);
+      }
+      .box5 ul li{
+         background-color: rgba(155,15,80);
+      }
+      .box6 ul li{
+         background-color: rgba(0,60,30);
+      }
+      @keyframes myaction{
+         
+         0%{
+            transform:rotateZ(45deg) rotateX(0deg) rotateY(0deg);
+         }
+         20%{
+            transform:rotateZ(45deg) rotateX(45deg) rotateY(50deg);
+         }
+         40%{
+            transform:rotateZ(45deg) rotateX(100deg) rotateY(90deg);
+         }
+         60%{
+            transform:rotateZ(45deg) rotateX(180deg) rotateY(160deg);
+         }
+         80%{
+            transform:rotateZ(45deg) rotateX(270deg) rotateY(240deg);
+         }
+         100%{
+            transform:rotateZ(45deg)rotateX(360deg) rotateY(360deg);
+         }
+      }

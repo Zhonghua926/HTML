@@ -1,0 +1,408 @@
+@charset "utf-8";
+   
+   .man-3{
+     width: 100%;
+     height: 78px;
+   }
+   .man-3 .fit-3{
+      width: 1366px;
+      height: 78px;
+      margin:auto;
+      position: relative;
+   }
+   .man-3 .fit-3 ul{
+      position: absolute;
+      left: 80px;
+   }
+   .man-3 .fit-3 ul li{
+      float: left;
+      line-height: 78px;
+      color: #888;
+      font-size: 15px;
+      margin-right: 8px;
+   }
+   .man-3 .fit-3 ul li a{
+      color: #555552;
+      font-size: 15px;
+   }
+   .man-3 div.fit-3 ul li:last-child{
+      color: #888888;
+   }
+   .man-4{
+      width: 100%;
+      height: 351px;
+   }
+   .man-4 .fit-4{
+      width: 1366px;
+      height: 351px;
+      margin:auto;
+      background-image: url(../img/man/n2.png);
+      background-size: 1366px 351px;
+   }
+   .man-4 .fit-4 a{
+    display: inline-block;
+    margin:auto;
+    width: 1366px;
+    height: 351px;
+   }
+   .man-5{
+   	width: 100%;
+   	height: 4370px;
+     margin-top: 40px;
+   }
+   .man-5 .fit-5{
+      width: 1366px;
+      height: 4370px;
+      position: relative;
+      margin:auto;
+   }
+   .man-5 .fit-5 .man-left{
+      width: 400px;
+      height: 4320px;
+      float: left;
+   }
+   .man-5 .fit-5 .man-left .mr-left{
+      width: 310px;
+      height: 300px;
+      margin-left: 85px;
+   }
+   .man-5 .fit-5 .man-left .mr-left .sex{
+      margin-top: 70px;
+   }
+   .man-5 .fit-5 .man-left .mr-left .product{
+      margin-top: 20px;
+   }
+   .man-5 .fit-5 .man-left .mr-left ul li{
+      width: 145px;
+      height: 18px;
+      line-height: 18px;
+      float: left;
+      position: relative;
+      margin-top: 5px;
+   }
+   .man-5 .fit-5 .man-left .mr-left p{
+      clear: both;
+      margin-top: 5px;
+      position: relative;
+      color: #666666;
+   }
+   .man-5 .fit-5 .man-left .mr-left p label{
+      color: #000000;
+      font-size: 14px;
+      cursor: pointer;
+   }
+   .man-5 .fit-5 .man-left .mr-left ul li input{
+      width: 18px;
+      height: 18px;
+      margin-top: 3px;
+      position: absolute;
+      top:0px;
+   }
+   .man-5 .fit-5 .man-left .mr-left ul li label{
+      position: absolute;
+      left:  25px;
+      font-size: 14px;
+      color: #666666;
+   }
+   .man-5 .fit-5 .man-left .mr-left ul li:hover label{
+      color: #ff4400;
+   }
+   .man-5 .fit-5 .man-left .mr-left  label:hover{
+      color: #ff4400;
+   }
+   .man-5 .fit-5 .man-right{
+      width: 960px;
+      height: 4370px;
+      float: left;
+   }
+   .man-5 .fit-5 .man-right >span{
+      font-size: 24px;
+      font-weight: bold;
+      display: inline-block;
+      margin-bottom: 35px;
+   }
+   .man-5 .fit-5 .man-right span span{
+      font-size: 24px;
+      font-weight: normal;
+      color: #666666;
+   }
+   .man-5 .fit-5 .man-right ul li{
+      box-sizing: content-box;
+      float: left;
+      width: 215px;
+      height: 350px;
+      margin:2px;
+      text-align: center;
+      border:1px solid #ffffff;
+      margin-top: 5px;
+      position: relative;
+   }
+   .man-5 .fit-5 .man-right ul li div{
+      width: 160px;
+      height: 40px;
+      position: absolute;
+      background-color: rgba(40,40,40,0.7);
+      top:160px;
+      left: 30px;
+      display: none;
+      text-align: center;
+      line-height: 40px;
+   }
+   .man-5 .fit-5 .man-right ul li:not(:first-child):not(:nth-child(2)):not(:nth-child(3)):not(:nth-child(4)) div{
+      width: 160px;
+      height: 40px;
+      position: absolute;
+      background-color: rgba(40,40,40,0.7);
+      top:200px;
+      left: 30px;
+      display: none;
+      text-align: center;
+      line-height: 40px;
+   }
+   div.man-5 div.fit-5 div.man-right ul li:hover div{
+      display: block !important;
+   }
+   .man-5 .fit-5 .man-right ul li div a{
+      color: #ffffff;
+      font-weight: bold;
+   }
+   .man-5 .fit-5 .man-right ul li a img{
+      margin-top: 2px;
+   }
+   .man-5 .fit-5 .man-right ul li:hover{
+      border:1px solid #CCCCCC;
+   }
+   .man-5 .fit-5 .man-right ul li p{
+      font-weight: bold;
+      font-size: 15px;
+      margin:5px;
+   }
+   .man-5 .fit-5 .man-right ul li p a{
+      font-size: 15px;
+   }
+   .man-6{
+   	width: 100%;
+      height: 218px;
+   }
+   .man-6 .fit-6{
+      width: 1366px;
+      height: 218px;
+      position: relative;
+      margin:auto;
+      line-height: 218px;
+      text-align: center;
+   }
+   .man-6 .fit-6 a{
+      color: #E2515B;
+      font-size: 16px;
+   }
+   .man-6 .fit-6 a:hover{
+      color: #3B3B5D;
+   }
+
+
+
+
+
+    @media screen and (max-width: 800px){
+    
+  .nb-1{
+      width: 100%;
+      height: 28px;
+      background-color: #000000;
+   }
+    .nb-1 .fit-1{
+    width: 100%;
+    margin:auto;
+    height: 28px;
+    background-color: #000000;
+    position: relative;
+   }
+   .nb-1 .fit-1 .black-m{
+    width: 100%;
+    height: 28px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 28px;
+    color: #ffffff;
+   }
+   .nb-1 .black-m a{
+    color: #ffffff;
+    font-size: 12px;
+   }
+   .nb-1 .black-m a:last-child{
+    text-decoration:underline #ffffff;
+   }
+   .nb-1 .black-r{
+    display: none;
+   }
+   .nb-2{
+    width: 100%;
+    height: 110px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+   }
+   .nb-2 .fit-2{
+    display: none;
+   }
+   .nb-2 .fit-2-cover{
+    display: block;
+    width: 100%;
+    height: 110px;
+    margin:auto;
+    /*border-bottom: 1px solid #AF9F8F;*/
+   /* overflow: hidden;*/
+    position: relative;
+   }
+   .nb-2 .fit-2-cover .ico a:first-child{
+    margin-left: 40%;
+   }
+   .nb-2 .fit-2-cover .ico a:first-child img{
+    width: 70px;
+    height: 30px;
+   }
+   .nb-2 .fit-2-cover .ico a:nth-child(2) img{
+    float: left;
+   }
+   .nb-2 .fit-2-cover .ico a:last-child img{
+   float: right;
+   }
+   .nb-2 .fit-2-cover .inp{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+   }
+   .nb-2 .fit-2-cover .inp input{
+    width: 80%;
+    height: 40px;
+    text-indent: 1em;
+    margin-left: 10%;
+   }
+   .nb-2 .fit-2-cover .inp a img{
+    position: absolute;
+    right: 13%;
+    top:5px;
+   }
+   .man-3{
+      display: none;
+   }
+   .man-4 .fit-4{
+      width:100%;
+      height: 351px;
+      margin:auto;
+      cursor:pointer;
+      background-image: url(../img/man/n2.png);
+      background-size: 100% 351px;
+   }
+   .man-5{
+      width: 100%;
+      height: 8280px;
+      overflow: hidden;
+      margin-top: 40px;
+   }
+   .man-5 .fit-5{
+      width: 100%;
+      height: 8280px;
+      overflow: hidden;
+      position: relative;
+      margin:auto;
+   }
+   .man-5 .fit-5 .man-left{
+      display: none;
+   }
+    .man-5 .fit-5 .man-right{
+      width: 74%;
+      height: 8280px;
+      margin-left: 26%;
+      overflow:hidden;
+      float: left;
+   }
+   .man-5 .fit-5 .man-right >span{
+      font-size: 24px;
+      font-weight: bold;
+      position:absolute;
+      left:30px;
+      display: inline-block;
+      margin-bottom: 35px;
+   }
+   .man-5 .fit-5 .man-right >span span{
+    display: none;
+   }
+   .man-6{
+      display: none;
+   }
+   .nb-bottom{
+    display: none;
+   }
+   .man-7-cover{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    background-color: #232323;
+   }
+  .man-7-cover ul li{
+    height:75px;
+    width: 100%;
+    line-height: 75px;
+    border:1px solid #666666; 
+    
+  } 
+  .man-7-cover ul li a{
+    color: #ffffff;
+    font-size: 15px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+  }
+  .man-7-cover ul li:first-child a:after{
+    content: url("../img/commit/b02.png");
+    position: absolute;
+    right: 1%;
+    top:0px;
+  }
+  .man-7-cover ul li:nth-child(2) a:after{
+    content: url("../img/commit/b01.png");
+    position: absolute;
+    right: 1%;
+    top:0px;
+  }
+  .man-7-cover ul li:nth-child(3) a:after,
+  .man-7-cover ul li:nth-child(4) a:after,
+  .man-7-cover ul li:nth-child(5) a:after,
+  .man-7-cover ul li:nth-child(6) a:after{
+    content: "+";
+    position: absolute;
+    right: 3%;
+    top:0px;
+  }
+  .man-7-cover ul li:nth-child(7) a:after{
+    content: ">";
+    position: absolute;
+    right: 3%;
+    top:0px;
+  }
+  .man-7-cover .btm{
+    width: 100%;
+    text-align: center;
+    margin:30px 0;
+  }
+  .man-7-cover .btm p{
+    margin-top: 12px;
+  }
+  .man-7-cover .btm span{
+    color: #555555;
+    font-size: 14px;
+  }
+  .man-7-cover .btm a{
+    color: #ffffff;
+    font-size: 14px;
+  }
+  .man-7-cover  a:hover{
+    color: #ff0000;
+  }
+.fixed{
+  display: none;
+}
+
+
+ }
