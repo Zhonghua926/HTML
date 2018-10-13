@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	color: #000000;
+}
+body{
+	background-color: #cccccc
+}
+.login{
+	width: 440px;
+	height:620px;
+	background-color: #ffffff;
+	margin:auto;
+	margin-top: 20px; 
+}
+p{
+	height: 63px;
+	background-color: #E4305F;
+	line-height: 63px;
+	font-size:24px;
+	text-align: center;
+}
+.click{
+	width: 325px;
+	height: 520px;
+	margin:auto;
+}
+.inp{
+	position: relative;
+	width: 323px;
+	height: 40px;
+	background-color: #ffffff;
+	border:1px solid #eeeeee;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+.click img{
+    margin-top: 4px; 
+}
+.inp input{
+	position: absolute;
+	top:2px;
+	left:40px;
+	height: 32px;
+	width: 220px;
+	outline: none;
+	border:none;
+}
+.key{
+	position: absolute;
+	left: 270px;
+	top:7px;
+}
+.check{
+	margin-top: 25px;
+}
+.check input{
+	width: 15px;
+	height: 15px;
+}
+.check span{
+	margin-left: 15px;
+	font-size: 14px;
+}
+.check a{
+	float: right;
+	font-size: 14px;
+	color: #333333;
+}
+.submit{
+	width: 250px;
+	height: 40px;
+	margin-left: 35px;
+	background-color: #ff0000;
+	color: #ffffff;
+	border-radius: 10px;
+	line-height: 40px;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+}
+.click form > span{
+	float: right;
+	margin-top: 50px;
+	font-size: 14px;
+}
+.click form > span a{
+	color: #ff0000;
+	font-size: 14px;
+}
+.line{
+	width: 325px;
+	border:1px solid #4B4B4B;
+	margin-top: 100px;
+	position: relative;
+}
+.line span{
+	position: absolute;
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	left: 105px;
+	top: -16px;
+	background-color: #ffffff;
+}
+.click > img{
+	margin-top: 40px;
+	margin-left: 40px;
+	cursor: pointer;
+}

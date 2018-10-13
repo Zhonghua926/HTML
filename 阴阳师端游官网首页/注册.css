@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	color: #000000;
+}
+body{
+	background-color: #cccccc
+}
+.login{
+	width: 440px;
+	height:620px;
+	background-color: #ffffff;
+	margin:auto;
+	margin-top: 20px; 
+}
+p{
+	height: 63px;
+	background-color: #E4305F;
+	line-height: 63px;
+	font-size:24px;
+	text-align: center;
+}
+
+.click{
+	width: 325px;
+	height: 520px;
+	margin:auto;
+}
+.select{
+	height: 50px;
+	width: 312px;
+	margin:auto;
+    margin-top: 30px;
+}
+.select span{
+	display: inline-block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+.inp{
+	position: relative;
+	width: 323px;
+	height: 40px;
+	background-color: #ffffff;
+	border:1px solid #989898;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+.inp span{
+	display: inline-block;
+	width: 80px;
+	height: 38px;
+	text-indent: 10px;
+    line-height: 38px;
+}
+.inp img{
+	position: absolute;
+	right: 56px;
+	top:11px;
+}
+div.select span:first-child{
+	color: #ff0000;
+	border-bottom: 1px solid #ff0000;
+}
+.inp input{
+	position: absolute;
+	top:2px;
+	left:90px;
+	height: 32px;
+	width: 160px;
+	outline: none;
+	border:none;
+}
+div.yanz{
+    width: 260px;
+}
+div.yanz button{
+	width: 77px;
+	height: 32px;
+    position: absolute;
+    right: -87px;
+    top:0px;
+	line-height: 32px;
+	text-align: center;
+	background-color:#cccccc;
+	font-size: 14px;
+}
+.check{
+	margin-top: 25px;
+}
+.check input{
+	margin-left: 10px;
+	width: 15px;
+	height: 15px;
+}
+.check span{
+	margin-left: 15px;
+	font-size: 14px;
+}
+.check a{
+	font-size: 14px;
+	color: #ff0000;
+}
+.submit{
+	width: 250px;
+	height: 40px;
+	margin-left: 35px;
+	background-color: #ff0000;
+	color: #ffffff;
+	border-radius: 10px;
+	line-height: 40px;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+}
