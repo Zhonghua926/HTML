@@ -1,0 +1,73 @@
+  
+
+  .btm{
+  	width: 960px;
+  	height: 475px;
+  	margin:auto;
+  	overflow: hidden;
+  	color: #4d4d4d;
+  	background-color: #fcfcfc;
+  	border-top: 1px solid #ebebeb;
+  }
+  .btm a{
+  	color: #4d4d4d;
+  }
+  .btm ul:first-of-type li{
+  	float: left;
+    width: 96px;
+    height: 105px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .btm .btm-list{
+  	margin:37px 0 25px;
+  	line-height: 20px;
+  }
+  .btm .btm-list dl{
+  	float: left;
+  	width: 145px;
+  	height: 160px;
+  	margin-left: 14px;
+  	border-right: 1px solid #e0e0e0;
+  }
+  .btm .btm-list dl:last-child{
+    border-right: none;
+  }
+  .btm .btm-list dl dd img{
+  	width: 100px;
+  	height: 100px;
+  }
+  .btm .btm-list dl dd a:hover{
+  	color: #D7237E;
+  	margin-left: 2px;
+  }
+  .btm > p{
+  	clear: both;
+  	height: 30px;
+  	background-color: #D7237E;
+  	line-height: 30px;
+  	text-align: center;
+  }
+  .btm > p > a{
+  	color: #fff;
+  	margin-left: 1px;
+  	margin-right: 1px;
+  }
+  .btm > p > a:hover{
+  	color: #ccc;
+  }
+  .btm .over{
+  	margin-top: 20px;
+  	text-align: center;
+  }
+  .btm .over p img{
+  	width: 14px;
+  	height: 14px;
+  }
+  .btm .over p a:hover{
+  	color: #D7237E;
+  }
+  .btm  .foot-ft{
+  	text-align: center;
+  	margin-top: 30px;
+  }

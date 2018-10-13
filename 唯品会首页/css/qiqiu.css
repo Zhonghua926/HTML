@@ -1,0 +1,161 @@
+        
+        .cover{
+			position: relative;
+		}
+		.qiqiu{
+			position: fixed;
+			width: 100px;
+			height: 200px;
+			z-index: 200;
+		}
+		.qiqiu img{
+			width: 100px;
+			height: 100px;
+		}
+		.qiqiu1{
+			bottom: -200px;
+			left: 200px;
+			animation:myfirst1 15s linear infinite;
+		}
+		@keyframes myfirst1{
+			0%{
+				bottom:-200px;
+			}
+			100%{
+				bottom:800px;
+			}
+		}
+		.qiqiu2{
+			bottom: 200px;
+			left: 600px;
+			animation:myfirst2 25s linear infinite;
+		}
+		div.qiqiu2 img{
+			width: 50px;
+			height: 50px;
+			position: relative;
+		} 
+		div.qiqiu2 span{
+			background-image: url(../img/pao.jpg);
+			background-size: 40px 40px;
+			display: inline-block;
+			margin-left: 6px;
+			position: relative;
+			top:-8px;
+			width: 40px;
+			height: 40px;
+			line-height: 30px;
+			text-align: center;
+		}
+		@keyframes myfirst2{
+			0%{
+				bottom:-200px;
+			}
+			100%{
+				bottom:820px;
+			}
+		}
+		.qiqiu3{
+			bottom: -200px;
+			left: 900px;
+			animation:myfirst3 22s 1.5s linear infinite;
+		}
+		@keyframes myfirst3{
+			0%{
+				bottom:-200px;
+			}
+			100%{
+				bottom:820px;
+			}
+		}
+		.qiqiu4{
+			bottom: -200px;
+			left: 1050px;
+			animation:myfirst4 19s linear infinite;
+		}
+		@keyframes myfirst4{
+			0%{
+				bottom:-200px;
+			}
+			100%{
+				bottom:800px;
+			}
+		}
+		.qiqiu5{
+			bottom: -200px;
+			left: 1200px;
+			animation:myfirst4 17s 3s linear infinite;
+		}
+		@keyframes myfirst5{
+			0%{
+				bottom:-200px;
+			}
+			100%{
+				bottom:830px;
+			}
+		}
+		.qiqiu6{
+			bottom: -200px;
+			left: 300px;
+			animation:myfirst6 14s 8s linear infinite;
+		}
+		@keyframes myfirst6{
+			0%{
+				bottom:-200px;
+			}
+			100%{
+				bottom:800px;
+			}
+		}
+		.qiqiu7{
+			bottom: -200px;
+			left: 680px;
+			animation:myfirst7 15s 3s linear infinite;
+		}
+		@keyframes myfirst8{
+			0%{
+				bottom:-200px;
+			}
+			100%{
+				bottom:830px;
+			}
+		}
+		.qiqiu8{
+			bottom: -200px;
+			left: 100px;
+			animation:myfirst8 17s 9s linear infinite;
+		}
+		@keyframes myfirst7{
+			0%{
+				bottom:-200px;
+			}
+			100%{
+				bottom:830px;
+			}
+		}
+		.qiqiu9{
+			bottom: -200px;
+			left: 380px;
+			animation:myfirst9 16s 7s linear infinite;
+		}
+		@keyframes myfirst9{
+			0%{
+				bottom:-200px;
+			}
+			100%{
+				bottom:830px;
+			}
+		}
+		.text{
+			background-image: url(../img/pao.jpg);
+			background-size: 80px 80px;
+			display: inline-block;
+			margin-left: 10px;
+			position: relative;
+			top:-10px;
+			width: 80px;
+			height: 80px;
+			line-height: 50px;
+			text-align: center;
+			color: #ff4400;
+		}

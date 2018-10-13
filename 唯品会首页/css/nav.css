@@ -1,0 +1,188 @@
+
+  .header{
+  	width: 100%;
+  	height: 168px;
+  }
+  .header .nav-top{
+  	background-color: #f5f5f5;
+  	height: 28px;
+  	color: #777;
+  }
+  .header .nav-top .nav{
+  	width: 1000px;
+  	margin: auto;
+  }
+  .header .nav-top .nav .nav-left{
+  	cursor: pointer;
+  	float: left;
+  	border-top: 1px solid #ffffff;
+  	width: 86px;
+  	height: 27px;
+  	padding-left: 15px;
+  	padding-right: 23px;
+  	line-height: 27px;
+  }
+  .header .nav-top .nav .nav-left i{
+  	margin-left: 5px;
+  }
+  .header .nav-top .nav > ul{
+  	float: right;
+  }
+  .header .nav-top .nav > ul > li{
+  	float: left;
+  	line-height: 28px;
+  	position: relative;
+  }
+  .header .nav-top .nav > ul > li .icon-xiegang{
+  	display: inline-block;
+  	padding:0 4px;
+  }
+  .header .nav-top .nav > ul > li:nth-last-child(2) i{
+  	color: #000;
+  }
+  .header .nav-top .nav ul  li a{
+  	color: #777;
+  }
+  .header .nav-top .nav > ul > li:hover > a{
+  	color: #f10180;
+  }
+  .header .nav-top .nav > ul > li:nth-child(3) a:before{
+  	content: url(../images/w1.gif);
+  	padding-right: 5px;
+  }
+  .header .nav-top .nav > ul > li:nth-child(6) ul {
+   background-color: #fff;
+   position: absolute;
+   width: 120px;
+   z-index: 100;
+   display: none;
+  }
+  .header .nav-top .nav > ul > li:nth-child(6):hover ul{
+  	display: block;
+  }
+  .header .nav-top .nav > ul > li:hover  .icon-triangle-copy{
+  	display: inline-block;
+    transform-origin:5px 14px;
+  	transform: rotateZ(180deg);
+  }
+  .header .header-logo{
+  	width: 1000px;
+  	height: 100px;
+  	margin:auto;
+  	color: #333;
+  }
+  .header .header-logo .logo{
+  	float: left;
+  	width: 160px;
+  }
+  .header .header-logo .logo a img{
+  	width: 160px;
+  	height: 100px;
+  }
+  .header .header-logo .vip{
+  	width: 340px;
+  	height: 100px;
+  	float: left;
+  	background-image: url(../images/w3.png);
+  	background-repeat: no-repeat;
+  	background-size: 340px 100px;
+  	cursor: pointer;
+  }
+
+  .header .header-logo .car{
+  	width: 106px;
+  	background-color: #f7f7f7;
+  	float: right;
+  	margin-top: 33px;
+  	margin-left: 20px;
+  }
+  .header .header-logo .car a{
+  	height: 34px;
+  	display: inline-block;
+  	line-height: 34px;
+  	margin-left: 10px;
+  	position: relative;
+  }
+  .header .header-logo .car a span{
+  	display: inline-block;
+  	position: absolute;
+  	top:10px;
+  	width: 20px;
+  	height: 16px;
+  	margin-left: 5px;
+  	background-color: #F00581;
+  	color: #ffffff;
+  	line-height: 16px;
+  	border-radius: 6px;
+  	text-align: center;
+  }
+  .header .header-logo .search{
+  	width: 340px;
+  	height: 34px;
+  	margin-top: 33px;
+  	border:1px solid #4c4c4c;
+  	float: right;
+  }
+  .header .header-logo .search input{
+  	width: 219px;
+  	height: 32px;
+  	border:none;
+  	outline: none;
+  	text-indent: 1em;
+  }
+  .header .header-logo .search i{
+  	margin-left: 80px;
+  }
+  .header .header-logo .search .icon-search:before{
+  	font-size: 20px;
+  	color: #666;
+  }
+  .header .main-nav{
+  	width: 100%;
+  	clear: both;
+  	background-color: #f10180;
+  }
+  .header .main-nav .j-main-nav{
+   width: 1000px;
+   height: 40px;
+   margin:auto;
+  }
+  .header .main-nav .j-main-nav a{
+  	color: #ffffff;
+  	font-size: 16px;
+  	line-height: 40px;
+  }
+  .header .main-nav .j-main-nav ul li{
+  	float: left;
+  	width: 60px;
+  	height: 40px;
+  	cursor: pointer;
+  	text-align: center;
+  }
+  .header .main-nav .j-main-nav ul li:nth-child(1){
+    background-color: #BD1067;
+  }
+  .header .main-nav .j-main-nav ul li:nth-last-child(1){
+  	float: right;
+  	width: 86px;
+  }
+  .header .main-nav .j-main-nav ul li:nth-last-child(2){
+  	float: right;
+  	width: 86px;
+  }
+  .header .main-nav .j-main-nav ul li:nth-last-child(1) img,
+  .header .main-nav .j-main-nav ul li:nth-last-child(2) img{
+  	vertical-align: middle;
+  	margin-top: -3px;
+  	margin-right: 6px;
+  }
+  .header .main-nav .j-main-nav ul li:nth-last-child(3){
+   width: 74px;
+  }
+  .header .main-nav .j-main-nav ul li:nth-last-child(3) i{
+  	font-size: 16px;
+  	color: #fff;
+  }
+  .header .main-nav .j-main-nav ul li:hover{
+  	background-color: #BD1067;
+  }
